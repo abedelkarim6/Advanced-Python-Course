@@ -1,6 +1,8 @@
 print("Hello from feature1.py!")
 
-from utils import utils  # ✅ absolute import, works when running as a module
+# from utils import utils  # ✅ absolute import, works when running as a module
+# from src import feature2  # ✅ absolute import, works when running as a module
+import feature2
 
 # from . import main            # ❌ relative import, will raise ImportError if run as a script
 # from ..utils import utils     # ❌ relative import, will raise ImportError if run as a script
@@ -8,12 +10,12 @@ from utils import utils  # ✅ absolute import, works when running as a module
 # from .. import test  # ❌ relative import, will raise ImportError
 
 # -------------------PLAN B-------------------
-import sys
-import os
+# import sys
+# import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from utils import utils
-import test
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# from utils import utils
+# import test
 
 
 # Explanation:
