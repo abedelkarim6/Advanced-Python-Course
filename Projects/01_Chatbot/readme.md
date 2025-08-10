@@ -32,5 +32,7 @@ Your chatbot should be able to answer **7 key questions** related to the Advance
 
 ### Your Mission:
 
-Design this chatbot as a friendly and knowledgeable guide for anyone interested in mastering Advanced Python. The chatbot’s answers should be accurate, clear, and encourage learners to explore deeper concepts confidently.
+- Design this chatbot as a friendly and knowledgeable guide for anyone interested in mastering Advanced Python. The chatbot’s answers should be accurate, clear, and encourage learners to explore deeper concepts confidently.
+
+- You should be using dictionaries, lists and functions. Also you should include try/except to ensure clean structured code.
 
