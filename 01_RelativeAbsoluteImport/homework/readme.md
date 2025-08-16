@@ -1,6 +1,3 @@
-Alright — here’s the **student-friendly homework sheet** version.
-It’s written as if you’re talking directly to them, guiding step-by-step.
-
 ---
 
 ## **Homework: Absolute & Relative Imports in Python**
